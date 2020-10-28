@@ -1,0 +1,201 @@
+{
+    "@class": "BaseScene",
+    "id": {
+        "uuid": "3F5341CF-E15A-4A4E-9D64-D60BD2D1574B"
+    },
+    "name": "Level",
+    "nodes": [
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "82561B4D-F24C-4AD5-81EE-867B95ACDD64"
+                },
+                "name": "UserRootObject",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                }
+            },
+            "children": [
+                "CF18954F-7A64-48B7-B1E9-20219FB32BFB",
+                "FBB47C11-6156-4047-B5A5-81613FF1EA8D"
+            ]
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "CF18954F-7A64-48B7-B1E9-20219FB32BFB"
+                },
+                "name": "MainCharacter",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "spawner": {
+                    "@class": "BaseComponentSpawner",
+                    "characterScriptId": {
+                        "uuid": "8856CC8C-0D7A-49AF-8FC7-DAD1BF32B80B"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "FBB47C11-6156-4047-B5A5-81613FF1EA8D"
+                },
+                "name": "Plane",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "colliders": [
+                    {
+                        "@class": "BaseComponentCollider",
+                        "colliderId": {
+                            "uuid": "3B48DEF9-176A-4544-AD20-A0E2C4475691"
+                        }
+                    }
+                ],
+                "geometry": {
+                    "@class": "BaseComponentGeometry",
+                    "meshId": {
+                        "uuid": "BB342271-4127-4369-B62B-4F9A58DABE4D"
+                    }
+                },
+                "material": {
+                    "@class": "BaseComponentMaterial",
+                    "materialId": {
+                        "uuid": "F336406B-AB58-4FC3-8570-04879C4EB0F3"
+                    },
+                    "mapsStates": 0
+                },
+                "rigidBody": {
+                    "@class": "BaseComponentPhysBody",
+                    "rigidBodyId": {
+                        "uuid": "2CD0A848-DA4A-4817-8001-B5E83DD157E2"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                }
+            }
+        }
+    ],
+    "scriptSystem": {
+        "@class": "BaseScriptSystem",
+        "scripts": [
+            {
+                "@class": "Script_SkyBox",
+                "id": {
+                    "uuid": "CD063859-7641-4428-8645-D71C8057052A"
+                }
+            },
+            {
+                "@class": "Script_Sun",
+                "id": {
+                    "uuid": "7B4247D2-5EDA-41C7-9438-ACD25ECA8F00"
+                }
+            },
+            {
+                "@class": "Script_Gravity",
+                "id": {
+                    "uuid": "9FEEE107-9D09-4D99-BE33-569665CE3352"
+                }
+            },
+            {
+                "@class": "ColliderScript",
+                "id": {
+                    "uuid": "4013A302-8D3A-4B4B-B2FB-8B960EEB6ED2"
+                }
+            },
+            {
+                "@class": "CameraFollowScript",
+                "id": {
+                    "uuid": "667FD9B8-63AC-442D-857A-5025CB865A8A"
+                }
+            },
+            {
+                "@class": "Script_PostFX",
+                "id": {
+                    "uuid": "E19F8605-F7EB-4393-9FE2-D42E9B073E6B"
+                }
+            },
+            {
+                "@class": "MainCharacterScript",
+                "id": {
+                    "uuid": "8856CC8C-0D7A-49AF-8FC7-DAD1BF32B80B"
+                }
+            }
+        ]
+    }
+}

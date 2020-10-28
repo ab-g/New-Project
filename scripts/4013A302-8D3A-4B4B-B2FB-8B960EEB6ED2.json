@@ -1,0 +1,8 @@
+{
+    "@class": "ColliderScript",
+    "id": {
+        "uuid": "4013A302-8D3A-4B4B-B2FB-8B960EEB6ED2"
+    },
+    "name": "ColliderScript",
+    "enableOnAwake": true
+}

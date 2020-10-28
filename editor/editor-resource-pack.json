@@ -1,0 +1,19 @@
+{
+    "scenes": [
+        {
+            "key": {
+                "uuid": "3F5341CF-E15A-4A4E-9D64-D60BD2D1574B"
+            },
+            "value": {
+                "id": {
+                    "uuid": "3F5341CF-E15A-4A4E-9D64-D60BD2D1574B"
+                },
+                "position": -1,
+                "timelines": [],
+                "scriptSystem": {
+                    "timelines": []
+                }
+            }
+        }
+    ]
+}
