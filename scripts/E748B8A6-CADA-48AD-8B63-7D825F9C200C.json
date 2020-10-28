@@ -1,0 +1,151 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "E748B8A6-CADA-48AD-8B63-7D825F9C200C"
+    },
+    "name": "anim_floating",
+    "enableOnAwake": false,
+    "duration": 0,
+    "loop": true,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "E33B60C9-BA0D-4B3E-80C9-355E502A0994"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink"
+                },
+                "animation": {
+                    "uuid": "3EBE027D-73C0-4704-8B23-2F0C8D86E469"
+                },
+                "AnimationType": "timeline",
+                "is_imported": false,
+                "track_disabled_list": []
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "GroupTrigger",
+            "id": {
+                "uuid": "9EC7E351-4B38-4777-B1F1-7A4ABE2C3F2A"
+            },
+            "ownerScriptId": {
+                "uuid": "E748B8A6-CADA-48AD-8B63-7D825F9C200C"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "triggers": [
+                {
+                    "@class": "StateMachineTrigger",
+                    "id": {
+                        "uuid": "A3575806-29EA-4414-AEE9-338170F58360"
+                    },
+                    "ownerScriptId": {
+                        "uuid": "E748B8A6-CADA-48AD-8B63-7D825F9C200C"
+                    },
+                    "logicOperation": 0,
+                    "resultType": 0,
+                    "isInverted": false,
+                    "event": 3,
+                    "state_id": {
+                        "uuid": "575025F1-CD16-4B21-9A43-51B610D31A26"
+                    },
+                    "obj_id": {
+                        "uuid": "64BC4075-2EF3-48EF-828E-920D0F95FDC1"
+                    }
+                },
+                {
+                    "@class": "StateMachineTrigger",
+                    "id": {
+                        "uuid": "2E96F600-73DF-4B5A-AE1D-BE65B01F9C7C"
+                    },
+                    "ownerScriptId": {
+                        "uuid": "E748B8A6-CADA-48AD-8B63-7D825F9C200C"
+                    },
+                    "logicOperation": 0,
+                    "resultType": 0,
+                    "isInverted": false,
+                    "event": 3,
+                    "state_id": {
+                        "uuid": "5CAC458D-139E-4EBE-8820-946F5DB2D6E3"
+                    },
+                    "obj_id": {
+                        "uuid": "64BC4075-2EF3-48EF-828E-920D0F95FDC1"
+                    }
+                },
+                {
+                    "@class": "StateMachineTrigger",
+                    "id": {
+                        "uuid": "B3C9CC1F-4717-45E1-86D6-BB2AA2767342"
+                    },
+                    "ownerScriptId": {
+                        "uuid": "E748B8A6-CADA-48AD-8B63-7D825F9C200C"
+                    },
+                    "logicOperation": 0,
+                    "resultType": 0,
+                    "isInverted": false,
+                    "event": 3,
+                    "state_id": {
+                        "uuid": "85C4A386-C6DE-4E00-B735-F51C7D5C1473"
+                    },
+                    "obj_id": {
+                        "uuid": "64BC4075-2EF3-48EF-828E-920D0F95FDC1"
+                    }
+                },
+                {
+                    "@class": "StateMachineTrigger",
+                    "id": {
+                        "uuid": "54B10E32-FAAF-4ED5-81B1-456142B53660"
+                    },
+                    "ownerScriptId": {
+                        "uuid": "E748B8A6-CADA-48AD-8B63-7D825F9C200C"
+                    },
+                    "logicOperation": 0,
+                    "resultType": 0,
+                    "isInverted": false,
+                    "event": 3,
+                    "state_id": {
+                        "uuid": "7236DA1A-37C2-4606-A6D7-074E588B1BE2"
+                    },
+                    "obj_id": {
+                        "uuid": "64BC4075-2EF3-48EF-828E-920D0F95FDC1"
+                    }
+                }
+            ]
+        },
+        {
+            "@class": "AnimationTrigger",
+            "id": {
+                "uuid": "8F900C0F-7A7B-4F80-974C-FC51D88E9D25"
+            },
+            "ownerScriptId": {
+                "uuid": "E748B8A6-CADA-48AD-8B63-7D825F9C200C"
+            },
+            "logicOperation": 1,
+            "resultType": 0,
+            "isInverted": true,
+            "event": 3,
+            "bindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "BB300EAF-943D-435E-B861-AC36F23F15CA"
+                }
+            }
+        }
+    ],
+    "animation_disabled_list": []
+}

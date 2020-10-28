@@ -1,0 +1,17 @@
+{
+    "@class": "RectangleMesh",
+    "id": {
+        "uuid": "F9F59209-98A6-4780-BFD8-EF5324FC8A05"
+    },
+    "hasPositions": true,
+    "hasColors": false,
+    "hasUV": true,
+    "hasNormals": true,
+    "hasTangents": true,
+    "hasBinormals": true,
+    "hasSkinAttributes": false,
+    "width": 5.0,
+    "height": 5.0,
+    "widthSegmentCount": 16,
+    "heightSegmentCount": 16
+}

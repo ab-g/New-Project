@@ -1,0 +1,12 @@
+{
+    "@class": "Camera",
+    "id": {
+        "uuid": "FE49C723-6E33-4F10-801A-8FF14A8D4CF7"
+    },
+    "name": "MainCamera",
+    "cameraType": "perspective",
+    "zNear": 1.0,
+    "zFar": 10000.0,
+    "fov": 60.0,
+    "aspectRatio": 1.3300000429153443
+}

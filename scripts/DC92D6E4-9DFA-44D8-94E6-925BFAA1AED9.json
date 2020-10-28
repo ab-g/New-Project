@@ -1,0 +1,41 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "DC92D6E4-9DFA-44D8-94E6-925BFAA1AED9"
+    },
+    "name": "anim_fallingIdle",
+    "enableOnAwake": false,
+    "duration": 0,
+    "loop": false,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "DE5F9A87-5EC5-43EA-BBBE-383F4AC0E8E5"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink"
+                },
+                "animation": {
+                    "uuid": "278DE715-6D2B-4F4E-99CD-221826AFF7CE"
+                },
+                "AnimationType": "timeline",
+                "is_imported": false,
+                "track_disabled_list": []
+            }
+        ]
+    },
+    "triggers": [],
+    "animation_disabled_list": []
+}
